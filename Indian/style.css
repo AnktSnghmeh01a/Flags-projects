@@ -1,0 +1,99 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Heading 1 */
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+h2:hover{
+    color: #ff8000;
+    cursor: pointer;
+    font-size: 35px;
+}
+/* Container part */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Part 1 */
+.saffron-color
+{
+   width: 400px;
+   height: 100px;
+   background-color: #ff8000;
+}
+
+/* Part 2 */
+.image-part {
+    width: 100px;
+    height: 100px;
+}
+.image-part img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Part 3 */
+.green-color{
+    width: 400px;
+   height: 100px;
+   background-color: green;
+}
+
+
+
+
+/* .................................... */
+/* ........Applying media query........ */
+/* .................................... */
+
+
+@media (max-width:580px){
+
+/* Heading 1 */
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+
+/* Part 1 */
+.saffron-color
+{
+   width: 200px;
+   height: 60px;
+   background-color: #ff8000;
+}
+
+/* Part 2 */
+.image-part {
+    width: 60px;
+    height: 60px;
+}
+.image-part img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Part 3 */
+.green-color{
+    width: 200px;
+    height: 60px;
+   background-color: green;
+}
+
+
+}
